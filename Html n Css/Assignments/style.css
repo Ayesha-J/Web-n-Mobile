@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.transparent-box {
+    width: 350px;
+    height: 100px;
+    background-color: orange;
+    transition: 0.2s;
+}
+
+.txt {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 224, 167);
+    letter-spacing: 5px;
+    padding-top: 10%;
+}
+
+.txt:hover {
+    margin-left: 10%;
+    transition: 0.4s;
+}

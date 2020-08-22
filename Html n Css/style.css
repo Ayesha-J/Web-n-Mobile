@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alata', sans-serif;
+}
+.n{
+    width: 100%;
+    background-image: url("./11.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-color: black;
+    color:wheat;
+    display: inline-block;
+ 
+}
+.w{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 2% 0% 2% 0%;
+    border: 1px solid pink;
+    background-image: purple
+    ;
+    
+}
+.D{
+    margin-top: 10%;
+    /* margin-left: 10%;  */
+    position: absolute;
+    color: white;
+}
+.F{
+    font-size: 60PX;
+    /* display: inline; */
+    width: 100%;
+    text-align: center;
+}
+.H{
+    /* padding-right: 10%; */
+    
+    /* width: 100%; */
+    text-align: center;
+    margin-top: 3%;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.back{
+    background-image: url("./back.png"); /* The image used */
+  /* background-color: #cccccc; Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
